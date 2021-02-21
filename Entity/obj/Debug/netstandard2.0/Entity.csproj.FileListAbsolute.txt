@@ -1,0 +1,12 @@
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharp Exercises\RecapProject\Entity\bin\Debug\netstandard2.0\Entity.deps.json
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharp Exercises\RecapProject\Entity\bin\Debug\netstandard2.0\Entity.dll
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharp Exercises\RecapProject\Entity\bin\Debug\netstandard2.0\Entity.pdb
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharp Exercises\RecapProject\Entity\obj\Debug\netstandard2.0\Entity.csprojAssemblyReference.cache
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharp Exercises\RecapProject\Entity\obj\Debug\netstandard2.0\Entity.AssemblyInfoInputs.cache
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharp Exercises\RecapProject\Entity\obj\Debug\netstandard2.0\Entity.AssemblyInfo.cs
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharp Exercises\RecapProject\Entity\obj\Debug\netstandard2.0\Entity.csproj.CoreCompileInputs.cache
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharp Exercises\RecapProject\Entity\obj\Debug\netstandard2.0\Entity.dll
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharp Exercises\RecapProject\Entity\obj\Debug\netstandard2.0\Entity.pdb
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharp Exercises\RecapProject\Entity\bin\Debug\netstandard2.0\Core.dll
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharp Exercises\RecapProject\Entity\bin\Debug\netstandard2.0\Core.pdb
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharp Exercises\RecapProject\Entity\obj\Debug\netstandard2.0\Entity.csproj.CopyComplete

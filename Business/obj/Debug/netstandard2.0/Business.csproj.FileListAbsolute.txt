@@ -1,0 +1,16 @@
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharp Exercises\RecapProject\Business\bin\Debug\netstandard2.0\Business.deps.json
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharp Exercises\RecapProject\Business\bin\Debug\netstandard2.0\Business.dll
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharp Exercises\RecapProject\Business\bin\Debug\netstandard2.0\Business.pdb
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharp Exercises\RecapProject\Business\bin\Debug\netstandard2.0\DataAccess.dll
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharp Exercises\RecapProject\Business\bin\Debug\netstandard2.0\Entity.dll
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharp Exercises\RecapProject\Business\bin\Debug\netstandard2.0\DataAccess.pdb
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharp Exercises\RecapProject\Business\bin\Debug\netstandard2.0\Entity.pdb
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharp Exercises\RecapProject\Business\obj\Debug\netstandard2.0\Business.csprojAssemblyReference.cache
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharp Exercises\RecapProject\Business\obj\Debug\netstandard2.0\Business.AssemblyInfoInputs.cache
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharp Exercises\RecapProject\Business\obj\Debug\netstandard2.0\Business.AssemblyInfo.cs
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharp Exercises\RecapProject\Business\obj\Debug\netstandard2.0\Business.csproj.CoreCompileInputs.cache
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharp Exercises\RecapProject\Business\obj\Debug\netstandard2.0\Business.csproj.CopyComplete
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharp Exercises\RecapProject\Business\obj\Debug\netstandard2.0\Business.dll
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharp Exercises\RecapProject\Business\obj\Debug\netstandard2.0\Business.pdb
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharp Exercises\RecapProject\Business\bin\Debug\netstandard2.0\Core.dll
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharp Exercises\RecapProject\Business\bin\Debug\netstandard2.0\Core.pdb
