@@ -37,7 +37,7 @@ namespace Business.Concrete
             return new SuccessResult(Messages.Added);
         }
 
-        [ValidationAspect(typeof(BrandValidator))]
+        [ValidationAspect(typeof(BrandValidator))] //Validation
         public IResult Update(Brand brand)
         {
             _brandDal.Update(brand);
