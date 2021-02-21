@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t2lc7SIOLjnMgPK7P4pRZ4ffMQDkeiiZyoTsij92ZXOp2PYd5bYBtdC+7pQp6iH7cOKm5br8cqK6QvoiWA+73A==",
+  "dgSpecHash": "4RAFmEFcFYUFlRs7gjBF2ajTxOggF8DFAAHDQIt9wTiXBY+Bl6/SSZPK6i9i5s3+c/hbZQMzp30WLhw26RqwTQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\WebApi\\WebApi.csproj",
+  "projectFilePath": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\starter\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DORUK\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
     "C:\\Users\\DORUK\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",

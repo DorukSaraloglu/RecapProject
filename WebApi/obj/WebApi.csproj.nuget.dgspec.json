@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\WebApi\\WebApi.csproj": {}
+    "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\starter\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\Business\\Business.csproj": {
+    "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\starter\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\starter\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\Business\\Business.csproj",
+        "projectPath": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\starter\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\DORUK\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\Business\\obj\\",
+        "outputPath": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\starter\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -34,11 +34,11 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\starter\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\starter\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\Entity\\Entity.csproj"
+              "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\starter\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\starter\\Entity\\Entity.csproj"
               }
             }
           }
@@ -86,14 +86,14 @@
         }
       }
     },
-    "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\Core\\Core.csproj": {
+    "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\starter\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\starter\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\starter\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\DORUK\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\Core\\obj\\",
+        "outputPath": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\starter\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -169,14 +169,14 @@
         }
       }
     },
-    "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\starter\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\starter\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\starter\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\DORUK\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\starter\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -199,11 +199,11 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\Core\\Core.csproj"
+              "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\starter\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\starter\\Core\\Core.csproj"
               },
-              "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\Entity\\Entity.csproj"
+              "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\starter\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\starter\\Entity\\Entity.csproj"
               }
             }
           }
@@ -243,14 +243,14 @@
         }
       }
     },
-    "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\Entity\\Entity.csproj": {
+    "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\starter\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\Entity\\Entity.csproj",
+        "projectUniqueName": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\starter\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\Entity\\Entity.csproj",
+        "projectPath": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\starter\\Entity\\Entity.csproj",
         "packagesPath": "C:\\Users\\DORUK\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\Entity\\obj\\",
+        "outputPath": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\starter\\Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -273,8 +273,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\Core\\Core.csproj"
+              "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\starter\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\starter\\Core\\Core.csproj"
               }
             }
           }
@@ -310,14 +310,14 @@
         }
       }
     },
-    "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\WebApi\\WebApi.csproj": {
+    "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\starter\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\starter\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\WebApi\\WebApi.csproj",
+        "projectPath": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\starter\\WebApi\\WebApi.csproj",
         "packagesPath": "C:\\Users\\DORUK\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\WebApi\\obj\\",
+        "outputPath": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\starter\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -340,17 +340,17 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\Business\\Business.csproj": {
-                "projectPath": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\Business\\Business.csproj"
+              "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\starter\\Business\\Business.csproj": {
+                "projectPath": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\starter\\Business\\Business.csproj"
               },
-              "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\Core\\Core.csproj"
+              "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\starter\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\starter\\Core\\Core.csproj"
               },
-              "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\starter\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\starter\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\Entity\\Entity.csproj"
+              "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\starter\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\starter\\Entity\\Entity.csproj"
               }
             }
           }

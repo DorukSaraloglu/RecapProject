@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gBtFbNCkgmT/AvgBkKz/TSi1Q2Zxb5stD+IOZ0MB06mQXXMKgWuAJ7e/Tb8QLRonIB0oS9pDO46PbR5oCUkGpA==",
+  "dgSpecHash": "g97Kr1engX5hk5StAkTkGNLXRN1w2CNWoDXaMtXK8IYCk5gzhV4m7LfcWqedwAQu5NZXQBRZ62o5Xl8iVefZ+w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\ConsoleUI\\ConsoleUI.csproj",
+  "projectFilePath": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\starter\\ConsoleUI\\ConsoleUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DORUK\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
     "C:\\Users\\DORUK\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",

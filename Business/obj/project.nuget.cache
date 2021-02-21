@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ur4HULgL7gisqCKGu4DDrk6pOSr4N0MJ2f1etNS3iB0zdmengvKcUnBG819W0ABl23LkmP4uGROmZwpVT7QsMw==",
+  "dgSpecHash": "tw85jPO3Q97m7QFK/8V7VKVoIVMdH8M+VZIsEW/Fr+D0Kv6fktnldmSHFDBlK5hxA6BjC4gkumS2sX660wJK6g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\Business\\Business.csproj",
+  "projectFilePath": "C:\\Users\\DORUK\\Desktop\\DORUK\\KOD\\CSharpExercises\\RecapProject\\starter\\Business\\Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DORUK\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
     "C:\\Users\\DORUK\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
