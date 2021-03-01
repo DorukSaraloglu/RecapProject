@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Core.Entities.Concrete;
 using Entity.Concrete;
 using FluentValidation;
 
