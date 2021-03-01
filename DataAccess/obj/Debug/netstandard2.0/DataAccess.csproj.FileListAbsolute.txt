@@ -12,3 +12,17 @@ C:\Users\DORUK\Desktop\DORUK\KOD\CSharp Exercises\RecapProject\DataAccess\obj\De
 C:\Users\DORUK\Desktop\DORUK\KOD\CSharp Exercises\RecapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.pdb
 C:\Users\DORUK\Desktop\DORUK\KOD\CSharp Exercises\RecapProject\DataAccess\bin\Debug\netstandard2.0\Core.dll
 C:\Users\DORUK\Desktop\DORUK\KOD\CSharp Exercises\RecapProject\DataAccess\bin\Debug\netstandard2.0\Core.pdb
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharpExercises\RecapProject\starter\DataAccess\obj\Debug\netstandard2.0\DataAccess.csprojAssemblyReference.cache
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharpExercises\RecapProject\starter\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharpExercises\RecapProject\starter\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfo.cs
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharpExercises\RecapProject\starter\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharpExercises\RecapProject\starter\DataAccess\bin\Debug\netstandard2.0\DataAccess.deps.json
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharpExercises\RecapProject\starter\DataAccess\bin\Debug\netstandard2.0\DataAccess.dll
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharpExercises\RecapProject\starter\DataAccess\bin\Debug\netstandard2.0\DataAccess.pdb
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharpExercises\RecapProject\starter\DataAccess\bin\Debug\netstandard2.0\Core.dll
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharpExercises\RecapProject\starter\DataAccess\bin\Debug\netstandard2.0\Entity.dll
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharpExercises\RecapProject\starter\DataAccess\bin\Debug\netstandard2.0\Core.pdb
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharpExercises\RecapProject\starter\DataAccess\bin\Debug\netstandard2.0\Entity.pdb
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharpExercises\RecapProject\starter\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CopyComplete
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharpExercises\RecapProject\starter\DataAccess\obj\Debug\netstandard2.0\DataAccess.dll
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharpExercises\RecapProject\starter\DataAccess\obj\Debug\netstandard2.0\DataAccess.pdb

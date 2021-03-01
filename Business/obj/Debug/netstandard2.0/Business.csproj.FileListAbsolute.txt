@@ -14,3 +14,7 @@ C:\Users\DORUK\Desktop\DORUK\KOD\CSharp Exercises\RecapProject\Business\obj\Debu
 C:\Users\DORUK\Desktop\DORUK\KOD\CSharp Exercises\RecapProject\Business\obj\Debug\netstandard2.0\Business.pdb
 C:\Users\DORUK\Desktop\DORUK\KOD\CSharp Exercises\RecapProject\Business\bin\Debug\netstandard2.0\Core.dll
 C:\Users\DORUK\Desktop\DORUK\KOD\CSharp Exercises\RecapProject\Business\bin\Debug\netstandard2.0\Core.pdb
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharpExercises\RecapProject\starter\Business\obj\Debug\netstandard2.0\Business.AssemblyInfoInputs.cache
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharpExercises\RecapProject\starter\Business\obj\Debug\netstandard2.0\Business.AssemblyInfo.cs
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharpExercises\RecapProject\starter\Business\obj\Debug\netstandard2.0\Business.csproj.CoreCompileInputs.cache
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharpExercises\RecapProject\starter\Business\obj\Debug\netstandard2.0\Business.csprojAssemblyReference.cache

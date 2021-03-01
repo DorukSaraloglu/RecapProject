@@ -84,7 +84,7 @@ namespace ConsoleUI
             //Console.WriteLine("ModelYear : ");
             //string _modelYear = Console.ReadLine();
 
-            CarManager carManager = new CarManager(new EfCarDal(), new EfBrandDal());
+            //CarManager carManager = new CarManager(new EfCarDal(), new EfBrandDal());
 
             Car car1 = new Car
             {
@@ -113,18 +113,18 @@ namespace ConsoleUI
             };
             //carManager.Add(car3);
 
-            carManager.Update(car2);
-            Console.WriteLine("Updated");
-            carManager.Delete(car3);
-            Console.WriteLine("Deleted");
+            //carManager.Update(car2);
+            //Console.WriteLine("Updated");
+            //carManager.Delete(car3);
+            //Console.WriteLine("Deleted");
 
-            foreach (var car in carManager.GetAll().Data)
-            {
-                Console.WriteLine("Id: {0} - BrandId: {1} - ColorId: {2} - ModelYear: {3} - DailyPrice: {4} - Description: {5}",
-                    car.Id, car.BrandId, car.ColorId, car.ModelYear, car.DailyPrice, car.Description);
-            }
+            //foreach (var car in carManager.GetAll().Data)
+            //{
+            //    Console.WriteLine("Id: {0} - BrandId: {1} - ColorId: {2} - ModelYear: {3} - DailyPrice: {4} - Description: {5}",
+            //        car.Id, car.BrandId, car.ColorId, car.ModelYear, car.DailyPrice, car.Description);
+            //}
 
-            var result = carManager.GetById(1).Data;
+            //var result = carManager.GetById(1).Data;
         }
 
         private static void BrandCrud()

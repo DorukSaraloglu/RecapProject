@@ -37,13 +37,14 @@ namespace Business.Concrete
             return new SuccessResult(Messages.Added);
         }
 
-        [ValidationAspect(typeof(BrandValidator))] //Validation
+        [ValidationAspect(typeof(BrandValidator))]
         public IResult Update(Brand brand)
         {
             _brandDal.Update(brand);
             return new SuccessResult(Messages.Updated);
         }
 
+        [ValidationAspect(typeof(BrandValidator))]
         public IResult Delete(Brand brand)
         {
             _brandDal.Delete(brand);

@@ -19,12 +19,10 @@ namespace Business.Concrete
     public class CarManager : ICarService
     {
         private ICarDal _carDal;
-        private IBrandDal _brandDal;
 
-        public CarManager(ICarDal carDal, IBrandDal brandDal)
+        public CarManager(ICarDal carDal)
         {
             _carDal = carDal;
-            _brandDal = brandDal;
         }
 
         public IDataResult<List<Car>> GetAll()
@@ -64,38 +62,22 @@ namespace Business.Concrete
         {
             return new SuccessDataResult<Car>(_carDal.Get(c => c.Id == id), Messages.Listed);
         }
-        
+
+        [ValidationAspect(typeof(CarValidator))]
         public IResult Add(Car car)
         {
-            //string brandName = _brandDal.Get(c => c.Id == car.BrandId).Name;
-            //if (brandName.Length < 2 && car.DailyPrice < 0)
-            //{
-            //    _carDal.Add(car);
-            //    return new SuccessResult(Messages.NotAdded);
-            //}
-
-            //ValidationTool.Validate(new CarValidator(), car);
-
-            //Console.WriteLine("Marka adı minimum 2 karakter olmalıdır ve günlük ücret 0 tlden fazla olmalıdır!");
             _carDal.Add(car);
             return new ErrorResult(Messages.Added);
         }
 
+        [ValidationAspect(typeof(CarValidator))]
         public IResult Update(Car car)
         {
-            string brandName = _brandDal.Get(c => c.Id == car.BrandId).Name;
-            if (brandName.Length > 2 && car.DailyPrice > 0)
-            {
-                _carDal.Update(car);
-                return new SuccessResult(Messages.Updated);
-            }
-            else
-            {
-                //Console.WriteLine("Marka adı minimum 2 karakter olmalıdır ve günlük ücret 0 tlden fazla olmalıdır!");
-                return new ErrorResult(Messages.NotUpdated);
-            }
+            _carDal.Update(car);
+            return new ErrorResult(Messages.Updated);
         }
 
+        [ValidationAspect(typeof(CarValidator))]
         public IResult Delete(Car car)
         {
             _carDal.Delete(car);

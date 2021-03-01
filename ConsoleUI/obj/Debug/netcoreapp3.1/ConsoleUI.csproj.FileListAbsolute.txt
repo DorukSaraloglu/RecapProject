@@ -60,3 +60,6 @@ C:\Users\DORUK\Desktop\DORUK\KOD\CSharp Exercises\RecapProject\ConsoleUI\bin\Deb
 C:\Users\DORUK\Desktop\DORUK\KOD\CSharp Exercises\RecapProject\ConsoleUI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\DORUK\Desktop\DORUK\KOD\CSharp Exercises\RecapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Core.dll
 C:\Users\DORUK\Desktop\DORUK\KOD\CSharp Exercises\RecapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharpExercises\RecapProject\starter\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.AssemblyInfoInputs.cache
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharpExercises\RecapProject\starter\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.AssemblyInfo.cs
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharpExercises\RecapProject\starter\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.csproj.CoreCompileInputs.cache

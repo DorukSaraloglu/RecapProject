@@ -1,59 +1,26 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Text;
+﻿using Core.DataAccess.EntityFramework;
+using Core.Entities.Concrete;
 using DataAccess.Abstract;
-using Entity.Concrete;
-using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Linq;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class EfUserDal : IUserDal
+    public class EfUserDal : EfEntityRepositoryBase<User, RecapProjectDBContext>, IUserDal
     {
-        public List<User> GetAll(Expression<Func<User, bool>> filter = null)
+        public List<OperationClaim> GetClaims(User user)
         {
-            using (RecapProjectDBContext context = new RecapProjectDBContext())
+            using (var context = new RecapProjectDBContext())
             {
-                return filter == null ? context.Set<User>().ToList() : context.Set<User>().Where(filter).ToList();
-            }
-        }
+                var result = from operationClaim in context.OperationClaims
+                             join userOperationClaim in context.UserOperationClaims
+                                 on operationClaim.Id equals userOperationClaim.OperationClaimId
+                             where userOperationClaim.UserId == user.Id
+                             select new OperationClaim { Id = operationClaim.Id, Name = operationClaim.Name };
+                return result.ToList();
 
-        public User Get(Expression<Func<User, bool>> filter)
-        {
-            using (RecapProjectDBContext context = new RecapProjectDBContext())
-            {
-                return context.Set<User>().SingleOrDefault(filter);
-            }
-        }
-
-        public void Add(User entity)
-        {
-            using (RecapProjectDBContext context = new RecapProjectDBContext())
-            {
-                var addEntity = context.Entry(entity);
-                addEntity.State = EntityState.Added;
-                context.SaveChanges();
-            }
-        }
-
-        public void Update(User entity)
-        {
-            using (RecapProjectDBContext context = new RecapProjectDBContext())
-            {
-                var updateEntity = context.Entry(entity);
-                updateEntity.State = EntityState.Modified;
-                context.SaveChanges();
-            }
-        }
-
-        public void Delete(User entity)
-        {
-            using (RecapProjectDBContext context = new RecapProjectDBContext())
-            {
-                var deleteEntity = context.Entry(entity);
-                deleteEntity.State = EntityState.Deleted;
-                context.SaveChanges();
             }
         }
     }

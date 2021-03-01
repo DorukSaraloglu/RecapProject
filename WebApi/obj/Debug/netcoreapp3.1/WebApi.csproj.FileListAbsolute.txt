@@ -71,3 +71,8 @@ C:\Users\DORUK\Desktop\DORUK\KOD\CSharp Exercises\RecapProject\WebApi\bin\Debug\
 C:\Users\DORUK\Desktop\DORUK\KOD\CSharp Exercises\RecapProject\WebApi\bin\Debug\netcoreapp3.1\Autofac.Extras.DynamicProxy.dll
 C:\Users\DORUK\Desktop\DORUK\KOD\CSharp Exercises\RecapProject\WebApi\bin\Debug\netcoreapp3.1\Castle.Core.dll
 C:\Users\DORUK\Desktop\DORUK\KOD\CSharp Exercises\RecapProject\WebApi\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharpExercises\RecapProject\starter\WebApi\obj\Debug\netcoreapp3.1\WebApi.csprojAssemblyReference.cache
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharpExercises\RecapProject\starter\WebApi\obj\Debug\netcoreapp3.1\WebApi.AssemblyInfoInputs.cache
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharpExercises\RecapProject\starter\WebApi\obj\Debug\netcoreapp3.1\WebApi.AssemblyInfo.cs
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharpExercises\RecapProject\starter\WebApi\obj\Debug\netcoreapp3.1\WebApi.csproj.CoreCompileInputs.cache
+C:\Users\DORUK\Desktop\DORUK\KOD\CSharpExercises\RecapProject\starter\WebApi\obj\Debug\netcoreapp3.1\WebApi.MvcApplicationPartsAssemblyInfo.cache
