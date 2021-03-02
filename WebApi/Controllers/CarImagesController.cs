@@ -43,16 +43,16 @@ namespace WebApi.Controllers
         }
 
         [HttpPost("add")]
-        public IActionResult Add(IFormFile file)
+        public IActionResult Add(IFormFile file, int id)
         {
             //IFormFile formFile = new FormFile();
-            var result = _carImageService.Add( file);
+            var result = _carImageService.Add(file, id);
             if (result.Success)
             {
                 return Ok(result);
             }
             return BadRequest(result);
-           // return null;
+            // return null;
         }
 
         [HttpPut("update")]

@@ -40,7 +40,7 @@ namespace Business.Concrete
         }
 
         [ValidationAspect(typeof(CarImageValidator))]
-        public IResult Add(/*CarImage carImage,*/ IFormFile formFile)
+        public IResult Add(IFormFile formFile, int id)
         {
             string folderName = "CarImages";
             string webRootPath = _hostingEnvironment.ContentRootPath;
@@ -60,7 +60,7 @@ namespace Business.Concrete
             }
             else
             {
-                newPath = Path.Combine(newPath, Guid.NewGuid().ToString() + "." +formFile.FileName.Split('.').LastOrDefault());
+                newPath = Path.Combine(newPath, Guid.NewGuid().ToString() + "." + formFile.FileName.Split('.').LastOrDefault());
 
                 var sourcepath = Path.GetTempFileName();
                 if (formFile.Length > 0)
@@ -68,8 +68,8 @@ namespace Business.Concrete
                         formFile.CopyTo(stream);
                 File.Move(sourcepath, newPath);
             }
-
-                return new SuccessResult(Messages.Added);
+            _carImageDal.Add(new CarImage { CarId = id, Date = DateTime.Now, ImagePath = newPath });
+            return new SuccessResult(Messages.Added);
         }
 
         [ValidationAspect(typeof(CarImageValidator))]
