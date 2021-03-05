@@ -5,8 +5,10 @@ using System.Linq;
 using System.Net.Http.Headers;
 using System.Text;
 using Business.Abstract;
+using Business.BusinessAspects.Autofac;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Caching;
 using Core.Aspects.Autofac.Validation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
@@ -29,17 +31,21 @@ namespace Business.Concrete
             _hostingEnvironment = hostingEnvironment;
         }
 
+        [CacheAspect]
         public IDataResult<List<CarImage>> GetAll()
         {
             return new SuccessDataResult<List<CarImage>>(_carImageDal.GetAll(), Messages.Listed);
         }
 
+        [CacheAspect]
         public IDataResult<CarImage> GetById(int id)
         {
             return new SuccessDataResult<CarImage>(_carImageDal.Get(c => c.Id == id), Messages.Listed);
         }
 
         [ValidationAspect(typeof(CarImageValidator))]
+        [SecuredOperation("carImage.add,admin")]
+        [CacheRemoveAspect("ICarImageService.Get")]
         public IResult Add(IFormFile formFile, int id)
         {
             string folderName = "CarImages";
@@ -73,6 +79,7 @@ namespace Business.Concrete
         }
 
         [ValidationAspect(typeof(CarImageValidator))]
+        [CacheRemoveAspect("ICarImageService.Get")]
         public IResult Update(CarImage carImage)
         {
             _carImageDal.Update(carImage);
