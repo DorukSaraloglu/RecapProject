@@ -24,52 +24,49 @@ namespace Business.Concrete
             _userDal = userDal;
         }
 
-        [CacheAspect]
+        //[CacheAspect]
         public IDataResult<List<User>> GetAll()
         {
             return new SuccessDataResult<List<User>>(_userDal.GetAll(), Messages.Listed);
         }
 
-        [CacheAspect]
+        //[CacheAspect]
         public IDataResult<User> GetById(int id)
         {
             return new SuccessDataResult<User>(_userDal.Get(u => u.Id == id), Messages.Listed);
         }
 
-        [CacheAspect]
+        //[CacheAspect]
         public List<OperationClaim> GetClaims(User user)
         {
             return _userDal.GetClaims(user);
         }
 
-        [CacheAspect]
+        //[CacheAspect]
         public User GetByMail(string email)
         {
             return _userDal.Get(u => u.Email == email);
         }
 
-        [ValidationAspect(typeof(UserValidator))]
-        [SecuredOperation("user.add,admin")]
-        [CacheRemoveAspect("IUserService.Get")]
-        public IResult Add(User user)
+        //[ValidationAspect(typeof(UserValidator))]
+        //[SecuredOperation("user.add,admin")]
+        //[CacheRemoveAspect("IUserService.Get")]
+        public void Add(User user)
         {
             _userDal.Add(user);
-            return new SuccessResult(Messages.Added);
         }
 
-        [ValidationAspect(typeof(UserValidator))]
+        //[ValidationAspect(typeof(UserValidator))]
         [CacheRemoveAspect("IUserService.Get")]
-        public IResult Update(User user)
+        public void Update(User user)
         {
             _userDal.Update(user);
-            return new SuccessResult(Messages.Updated);
         }
 
-        [ValidationAspect(typeof(UserValidator))]
-        public IResult Delete(User user)
+        //[ValidationAspect(typeof(UserValidator))]
+        public void Delete(User user)
         {
             _userDal.Delete(user);
-            return new SuccessResult(Messages.Deleted);
         }
     }
 }

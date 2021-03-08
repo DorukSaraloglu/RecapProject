@@ -35,7 +35,7 @@ namespace Business.Concrete
         }
 
         [ValidationAspect(typeof(ColorValidator))]
-        [SecuredOperation("color.add,admin")]
+        //[SecuredOperation("color.add,admin")]
         [CacheRemoveAspect("IColorService.Get")]
         public IResult Add(Color color)
         {

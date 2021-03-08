@@ -13,8 +13,8 @@ namespace Business.Abstract
         IDataResult<User> GetById(int id);
         List<OperationClaim> GetClaims(User user);
         User GetByMail(string email);
-        IResult Add(User user);
-        IResult Update(User user);
-        IResult Delete(User user);
+        void Add(User user);
+        void Update(User user);
+        void Delete(User user);
     }
 }

@@ -72,7 +72,7 @@ namespace Business.Concrete
         }
 
         [ValidationAspect(typeof(CarValidator))]
-        [SecuredOperation("car.add,admin")]
+        //[SecuredOperation("car.add,admin")]           ÇALIŞIRKEN HATA VERİYOR
         [CacheRemoveAspect("ICarService.Get")]
         public IResult Add(Car car)
         {

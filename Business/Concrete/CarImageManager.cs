@@ -44,7 +44,7 @@ namespace Business.Concrete
         }
 
         [ValidationAspect(typeof(CarImageValidator))]
-        [SecuredOperation("carImage.add,admin")]
+        //[SecuredOperation("carImage.add,admin")]
         [CacheRemoveAspect("ICarImageService.Get")]
         public IResult Add(IFormFile formFile, int id)
         {

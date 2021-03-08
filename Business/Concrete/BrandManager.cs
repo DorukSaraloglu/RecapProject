@@ -35,7 +35,7 @@ namespace Business.Concrete
         }
 
         [ValidationAspect(typeof(BrandValidator))]
-        [SecuredOperation("brand.add,admin")]
+        //[SecuredOperation("brand.add,admin")]
         [CacheRemoveAspect("IBrandService.Get")]
         public IResult Add(Brand brand)
         {
