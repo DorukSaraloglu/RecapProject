@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.Linq;
 using System.Text;
 using Business.Abstract;
 using Business.BusinessAspects.Autofac;
@@ -21,20 +22,39 @@ namespace Business.Concrete
     public class CarManager : ICarService
     {
         private ICarDal _carDal;
+        private IBrandDal _brandDal;
+        private IColorDal _colorDal;
 
-        public CarManager(ICarDal carDal)
+
+        public CarManager(ICarDal carDal, IBrandDal brandDal, IColorDal colorDal)
         {
             _carDal = carDal;
+            _brandDal = brandDal;
+            _colorDal = colorDal;
         }
 
         [CacheAspect]
-        public IDataResult<List<Car>> GetAll()
+        public IDataResult<List<CarDetailDto>> GetAll()
         {
-            if (DateTime.Now.Hour == 22)
+            //if (DateTime.Now.Hour == 22)
+            //{
+            //    return new ErrorDataResult<List<Car>>(Messages.MaintenenceTime);
+            //}
+            //return new SuccessDataResult<List<Car>>(_carDal.GetAll(), Messages.Listed);
+
+            var carsDataResult = new SuccessDataResult<List<Car>>(_carDal.GetAll(), Messages.Listed);
+
+            var cars = carsDataResult.Data.Select(c => new CarDetailDto
             {
-                return new ErrorDataResult<List<Car>>(Messages.MaintenenceTime);
-            }
-            return new SuccessDataResult<List<Car>>(_carDal.GetAll(), Messages.Listed);
+                DailyPrice = c.DailyPrice,
+                CarId = c.Id,
+                ModelYear = c.ModelYear,
+                BrandName = _brandDal.Get(b => b.Id == c.BrandId).Name,
+                ColorName = _colorDal.Get(o => o.Id == c.ColorId).Name,
+                Description = c.Description
+            }).ToList();
+
+            return new SuccessDataResult<List<CarDetailDto>>(cars);
         }
 
         [CacheAspect]
