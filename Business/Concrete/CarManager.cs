@@ -34,14 +34,17 @@ namespace Business.Concrete
         }
 
         [CacheAspect]
-        public IDataResult<List<CarDetailDto>> GetAll()
+        public IDataResult<List<Car>> GetAll()
         {
-            //if (DateTime.Now.Hour == 22)
-            //{
-            //    return new ErrorDataResult<List<Car>>(Messages.MaintenenceTime);
-            //}
-            //return new SuccessDataResult<List<Car>>(_carDal.GetAll(), Messages.Listed);
+            if (DateTime.Now.Hour == 22)
+            {
+                return new ErrorDataResult<List<Car>>(Messages.MaintenenceTime);
+            }
+            return new SuccessDataResult<List<Car>>(_carDal.GetAll(), Messages.Listed);
+        }
 
+        public IDataResult<List<CarDetailDto>> GetCarDetails()
+        {
             var carsDataResult = new SuccessDataResult<List<Car>>(_carDal.GetAll(), Messages.Listed);
 
             var cars = carsDataResult.Data.Select(c => new CarDetailDto
@@ -76,7 +79,7 @@ namespace Business.Concrete
         }
 
         [CacheAspect]
-        public IDataResult<List<CarDetailDto>> GetCarDetails()
+        public IDataResult<List<CarDetailDto>> GetCarDetail()
         {
             if (DateTime.Now.Hour == 23)
             {
