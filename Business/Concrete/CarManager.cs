@@ -43,6 +43,7 @@ namespace Business.Concrete
             return new SuccessDataResult<List<Car>>(_carDal.GetAll(), Messages.Listed);
         }
 
+        [CacheAspect]
         public IDataResult<List<CarDetailDto>> GetCarDetails()
         {
             var carsDataResult = new SuccessDataResult<List<Car>>(_carDal.GetAll(), Messages.Listed);
@@ -89,13 +90,31 @@ namespace Business.Concrete
         }
 
         [CacheAspect]
+        public IDataResult<List<CarDetailDto>> GetAllByBrandId(int id)
+        {
+            var carsDataResult = new SuccessDataResult<List<Car>>(_carDal.GetAll(c => c.BrandId == id), Messages.Listed);
+
+            var cars = carsDataResult.Data.Select(c => new CarDetailDto
+            {
+                DailyPrice = c.DailyPrice,
+                CarId = c.Id,
+                ModelYear = c.ModelYear,
+                BrandName = _brandDal.Get(b => b.Id == c.BrandId).Name,
+                ColorName = _colorDal.Get(o => o.Id == c.ColorId).Name,
+                Description = c.Description
+            }).ToList();
+
+            return new SuccessDataResult<List<CarDetailDto>>(cars);
+        }
+
+        [CacheAspect]
         public IDataResult<Car> GetById(int id)
         {
             return new SuccessDataResult<Car>(_carDal.Get(c => c.Id == id), Messages.Listed);
         }
 
         [ValidationAspect(typeof(CarValidator))]
-        //[SecuredOperation("car.add,admin")]           //ÇALIŞIRKEN HATA VERİYOR
+        //[SecuredOperation("car.add,admin")]
         [CacheRemoveAspect("ICarService.Get")]
         public IResult Add(Car car)
         {
